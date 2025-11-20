@@ -9,7 +9,7 @@ import os
 # Add the parent directory to the path so we can import the config module
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
-from config.settings import (
+from src.config.settings import (
     MQTT_SERVER,
     MQTT_PORT,
     MQTT_CLIENT_ID,
